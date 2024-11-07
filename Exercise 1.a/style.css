@@ -1,0 +1,148 @@
+body{    /*Background design*/
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(80deg, rgba(172, 5, 133, 0.725), rgba(87, 13, 172, 0.653));
+    overflow: hidden;
+    font-family: 'poppins';
+    position: relative;
+}
+.center-text {
+    position: relative;
+    top: 8%;
+    left: 2%;
+}
+.subheading1{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 6%;
+    left: 2%;
+}
+.subheading2{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
+.subheading3{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+.subheading4{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 6%;
+    left: 64%;
+}
+.subheading5{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 40%;
+    left: 64%;
+}
+.subheading6{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 52%;
+    left: 64%;
+}
+.subheading7{
+    color: rgb(12, 230, 212);
+    position: absolute;
+    top: 67%;
+    left: 64%;
+}
+
+.font{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.font1{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    /*color: rgb(212, 230, 12);*/
+}
+.spacer {
+    display: block;
+    height: 7px; /* Adjust this value to change the height */
+}
+.about_me_container{
+    position: absolute;
+    top: 11%;
+    left: 3%;
+}
+
+table {
+    position: absolute;
+    top: 31%;
+    left: 3%;
+    width: 40%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th ,td{
+    background-color: transparent;
+}
+
+.practical_project_container1_1{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+}
+.practical_project_container1_2{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+.skills {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    transform: translate(-50%, -50%); /* Adjust if you want to center based on this position */
+}
+.skills li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+.skill-name {
+    width: 160px; /* Adjust width as needed */
+    text-align: left;
+}
+.stars {
+    color: gold;
+}
+.award_container{
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+.lang_container{
+    position: absolute;
+    top: 57%;
+    left: 65%;
+}
+.addition_sect_container1{
+    position: absolute;
+    top: 72%;
+    left: 65%;
+}
+.addition_sect_container2{
+    position: absolute;
+    top: 72%;
+    left: 67%;
+}

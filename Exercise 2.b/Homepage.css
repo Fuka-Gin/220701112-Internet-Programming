@@ -1,0 +1,51 @@
+.top_container{
+    background-color: rgba(71, 7, 106);
+    padding: 22px;
+    margin: -8px; /* Margin outside the region */
+}
+
+.top_cont_text{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;   
+    color: white;
+    font-size: xx-large;
+}
+
+.top_cont_text .text2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;   
+    color: white;
+    font-size: 87%;
+}
+
+.address .text{
+    text-align: right;
+    color: blue;
+    font-size: xx-large;
+}
+
+.sideBar{
+    width: 350px;
+    margin: -8px;
+    background-color: rgb(160, 151, 151);
+    height: 65.5vh;
+}
+
+.sideBar h1{
+    margin-left: 10px;
+}
+
+.sideBar .subheading a{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.content{
+    position: absolute;
+    left: 350px;
+    top: 268.5px;
+    margin-left: 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Timetable</h1>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:00 - 9:00</td>
+            <td>Math</td>
+            <td>English</td>
+            <td rowspan="2">Physics</td>
+            <td>Math</td>
+            <td>Biology</td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>History</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td rowspan="2">Computer Science</td>
+            <td>History</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td>Geography</td>
+            <td>Biology</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td colspan="6">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>1:00 - 2:00</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td rowspan="2">PE</td>
+            <td>Biology</td>
+        </tr>
+        <tr>
+            <td>2:00 - 3:00</td>
+            <td>History</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+    </table>
+</body>
+</html>
